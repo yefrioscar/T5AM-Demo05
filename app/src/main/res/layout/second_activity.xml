@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/etSecondFirstName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="8dp"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginTop="8dp"
+		android:hint="Nombre"
+		android:inputType="textPersonName"/>
+
+	<EditText
+		android:id="@+id/etSecondLastName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="8dp"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginTop="8dp"
+		android:hint="Apellido"
+		android:inputType="textPersonName"/>
+
+	<EditText
+		android:id="@+id/etSecondCellphone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="8dp"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginTop="8dp"
+		android:hint="Teléfono"
+		android:inputType="phone"/>
+
+	<EditText
+		android:id="@+id/etSecondAge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="8dp"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginTop="8dp"
+		android:hint="Edad"
+		android:inputType="number"
+		android:maxLength="2"/>
+
+	<Button
+		android:id="@+id/btSecondSend"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="8dp"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginTop="8dp"
+		android:text="Enviar"/>
+</LinearLayout>
